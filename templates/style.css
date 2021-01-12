@@ -1,0 +1,21 @@
+body,html {
+   padding: 0;
+   margin: 0;
+   font-family: raleway, sans-serif;
+}
+
+div.container {
+   display: grid;
+   place-items: center;
+   height: 100vh;
+   width: 100vw;
+}
+
+div.card {
+   height: min(70%, 800px);
+   width: 450px;
+   background: #f0f0f0;
+   border-radius: 20px;
+   padding: 20px;
+   overflow-y: scroll;
+}

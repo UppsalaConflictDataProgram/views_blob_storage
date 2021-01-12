@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}
+List 
+{% endblock %}
+
+{% block content%}
+<h1>List of blobs</h1>
+
+<ul>
+   {% for id in ids %}
+   <li>
+      <a href="/{{id}}">{{id}}</a>
+   </li>
+   {% endfor %}
+</ul>
+{% endblock %}
